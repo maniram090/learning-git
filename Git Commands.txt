@@ -17,7 +17,8 @@ Git merge - For Pulling and merging updated information from remote repository t
 Git Fetch - For checking the diffrence b/w remote repository and the local repository
 Git reset --hard Head - For changing the head to the commit.
 Git revert
-Git rebase -i origin/master 
+Git rebase - for merging 2 branches
+Git rebase -i origin/master - interactive rebasing
 Git push origin branch name - For pushing the updated code into the remote repository branch from local working copy
 Git reflog - For reffering the history of log
 Git stash - For saving the un staged files
