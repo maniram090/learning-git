@@ -11,4 +11,4 @@ Git commit -am "Commit Description" - Both for adding & commiting the changes to
 Git commit - For commiting and adding description in Vim/Vi edditor
 Git Log - For checking the history of the commits
 Git reset --Hard - For removing the changes that have not been added into the staging area
-Git reset --hard "commit id" - For changing the head to the previous commit. 
+Git reset --hard "commit id" - For changing the head to the previous commit.
