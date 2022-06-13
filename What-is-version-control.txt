@@ -11,4 +11,9 @@ Git commit -am "Commit Description" - Both for adding & commiting the changes to
 Git commit - For commiting and adding description in Vim/Vi edditor
 Git Log - For checking the history of the commits
 Git reset --Hard - For removing the changes that have not been added into the staging area
-Git reset --hard "commit id" - For changing the head to the previous commit.
+Git reset --hard "commit id" - For changing the head to the deserved commit.
+Git Diff - For checkingthe diffrence b/w the commits
+Git Clone URL - For cloning the remote repositoryin to the local workstation and creating a working coppy
+Git Pull - For syncing the updated information from remote repository to the local repository
+Git merge - For Pulling and merging updated information from remote repository to the local repository
+Git Fetch - For checking the diffrence b/w remote repository and the local repository
