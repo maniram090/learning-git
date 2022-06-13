@@ -1,4 +1,14 @@
 version control is a practice of tracking and managing the changes in the source code. 
 Version controll management tool are the software tools that help the softwre teams to manage the source code over time.
-1
-2
+Git Init - For installing the local repository in our local workstation
+Git Status - For checking the status of our work in local repository 
+Touch - For creating files
+Mkdir - For Creating Directories
+Git Add "file name" - For adding out changes into the staging area
+Git Add . - For adding all the changes into the staging area at a time
+git commit -m "Commit Description" - For commiting the changes form staging area to local repository
+Git commit -am "Commit Description" - Both for adding & commiting the changes to the local repository
+Git commit - For commiting and adding description in Vim/Vi edditor
+Git Log - For checking the history of the commits
+Git reset --Hard - For removing the changes that have not been added into the staging area
+Git reset --hard "commit id" - For changing the head to the previous commit. 
