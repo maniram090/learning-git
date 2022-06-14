@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#adding two numbers
+((sum=(30+30))
+#print the sum of both numbers
+echo ="Value is $sum"
