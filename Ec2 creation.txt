@@ -1,0 +1,22 @@
+Provider "aws" {
+region= "us-east1"
+ }
+ variable "servername" {
+ default = "s1"
+ }
+ variable "servertype" {
+ default = "t2-micro"
+ }
+ variable "keyname" {
+ default = "key-name"
+ }
+ 
+ resource "aws_instance "my-ec2" {
+ ami = " ami id"
+ instance type = "$(var.servertype)"
+ key_name = "$(var.keyname)"
+ sceurity_groups = [" name "]
+ count = 1
+ tags = {
+ name = "$(servername)"
+} 
