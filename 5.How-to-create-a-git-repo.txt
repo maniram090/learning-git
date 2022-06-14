@@ -1,0 +1,1 @@
+1.By entering Git Init command, a local repository will be created in our local work station.

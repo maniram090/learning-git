@@ -1,0 +1,27 @@
+Git Init - For initializing a local repository in our local workstation
+Git Status - For checking the status on our work in local repository 
+Touch - For creating files
+Mkdir - For Creating Directories
+Git Add "file name" - For adding our changes into the staging area
+Git Add . - For adding all the changes into the staging area in one go
+Git commit - For commiting the changes in staging area to local repository
+git commit -m "Commit Description" - For commiting the changes in staging area to local repository with an inline commit message 
+Git commit -am "Commit Description" - Both for adding & commiting the changes to the local repository
+Git Log - For checking the history of the commits
+Git reset --Hard - For removing the changes that have not been added into the staging area
+Git reset --hard "commit id" - For changing the head to the deserved commit.
+Git Diff - For checkingthe diffrence b/w the commits
+Git Clone URL - For cloning the remote repositoryin to the local workstation and creating a working coppy
+Git Pull - For syncing the updated information from remote repository to the local repository
+Git merge - For Pulling and merging updated information from remote repository to the local repository
+Git Fetch - For checking the diffrence b/w remote repository and the local repository
+Git reset --hard Head - For changing the head to the commit.
+Git revert
+Git rebase - for merging 2 branches
+Git rebase -i origin/master - interactive rebasing
+Git push origin branch name - For pushing the updated code into the remote repository branch from local working copy
+Git push origin branch name -f -Force push
+Git reflog - For reffering the history of log
+Git stash - For saving the un staged files
+Git stash list
+Git stash apply - For applying the previos stashes 

@@ -1,0 +1,9 @@
+Provider "aws" {
+     region="us-east-1"
+	 acess_key = "my-acess-key"
+	 secret_key = "my-secret-key"
+	 resource "aws_key_pair" "my-key" {
+  key_name   = "my-key-name"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6PBYaOtzwf4ecAuvHQSBf9qHmSfVW7XEb1M4sB+ejdIlLHnLs8rMjNVbYVfgjFWj8AQ3B6UbISRCpkg5uSeA9S+E9Y3t+4L96R1VajvQjJ/FulcqOLbHEr40dW7xws0k28DCohWHsJQ9ALmSoAYR0UolPy02FrYFoIL4BJ69gRyxPNDNoPil273LGbO8IlKfB/p092D+xY8KS4u6pxej78Qg5uBzH32XHJ0VKqkFwhHaJ6qqbOR19AWwwlIn3MV9TEP1CH5ovlCWphQduUYACGDR0sFRff3LP2v2wCNXZ+CX5qrN0+v660gcGaYFfwvLS+W67dh6Lgq3/MFcZHj6T imported-openssh-key"
+	 
+ }
