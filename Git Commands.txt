@@ -24,4 +24,15 @@ Git push origin branch name -f -Force push
 Git reflog - For reffering the history of log
 Git stash - For saving the un staged files
 Git stash list
-Git stash apply - For applying the previos stashes 
+Git stash apply - For applying the previos stashes
+Git config --list --show-origin 
+Git config --global user.email "manideep.koduri09@gmail.com"
+Git config --global user.name "Manideep"
+Git checkout branch name - for shifting from one branch to another branch
+Git revert - Safely Undoing Your Changes
+Git revert --hard
+Git revert commit id
+Git commit --amend -m "Revert adding changes" -For changing the comment of the previous commit
+Git revert --abort - Workspace and history end up as they were before the start of git revert
+
+ 
