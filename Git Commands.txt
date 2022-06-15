@@ -42,4 +42,15 @@ Git config --list --show-origin
 Git remote -v - To check the origin
 Git branch --set-upstream-to=origin/branch name - 
 Git Push -u
+Git Show head - used to check the status of the Head
+Git Show head~1 - 
+Git Tag name -For add taggs
+Git pus --tags - For pushing the tags to the remote repository
+Git log oneline - Will display the commits in online
+Git clean - For cleaning the unfished changes 
+Git Ignore - For ignoring the mentioned files
+Git restore file name - for restoring the files or deleted objects
+Git rm file.txt - for removing the file 
+Git config --global help.autocorrect 10 - For autocorrecting the spelling mistakes
+ 
  
