@@ -34,5 +34,12 @@ Git revert --hard
 Git revert commit id
 Git commit --amend -m "Revert adding changes" -For changing the comment of the previous commit
 Git revert --abort - Workspace and history end up as they were before the start of git revert
-
+Git Branch -For checking in which you are in
+Git Branch checkout branch name -For moving from one branch to another branch
+Git Branch branch name - For creating new branch
+Git push origin branch name - For pushing the commits to the remote repository to the mentioned branch
+Git config --list --show-origin
+Git remote -v - To check the origin
+Git branch --set-upstream-to=origin/branch name - 
+Git Push -u
  
